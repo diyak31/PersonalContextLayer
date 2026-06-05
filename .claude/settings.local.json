@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(mkdir -p /c/Users/diyaj/PersonalAgent/canvas-mcp)",
+      "Bash(uv init:*)",
+      "Bash(uv add:*)",
+      "Bash(claude mcp:*)",
+      "Bash(python3 -c ':*)",
+      "Bash(powershell -Command ':*)",
+      "Bash(node -e ':*)",
+      "Bash(CANVAS_TOKEN=test uv run server.py)",
+      "Bash(kill %1)",
+      "Bash(wait)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(cmd /c cd)",
+      "Bash(agent/.venv/Scripts/pip.exe install *)",
+      "Bash(agent/.venv/Scripts/python.exe -c \"import streamlit; print\\('ok'\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(agent/.venv/Scripts/python.exe demo/restyle.py)",
+      "Bash(agent/.venv/Scripts/python.exe -c ' *)"
+    ]
+  }
+}
