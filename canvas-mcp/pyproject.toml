@@ -1,0 +1,9 @@
+[project]
+name = "canvas-mcp"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp>=1.27.0",
+]
