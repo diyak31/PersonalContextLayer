@@ -1,0 +1,69 @@
+{
+  "user": {
+    "name": "Diya",
+    "email": "diyak31@stanford.edu"
+  },
+  "active_sources": [
+    {
+      "type": "gmail",
+      "description": "Email history, sent messages, receipts",
+      "credentials": "../gmail-mcp/token.json",
+      "enabled": true
+    },
+    {
+      "type": "google_calendar",
+      "description": "Events, meetings, free/busy schedule",
+      "credentials": "../gcal-mcp/token.json",
+      "enabled": true
+    },
+    {
+      "type": "canvas",
+      "description": "Courses, assignments, deadlines",
+      "credentials": "env:CANVAS_TOKEN",
+      "enabled": true
+    },
+    {
+      "type": "course_websites",
+      "description": "Scraped course schedules and deadlines",
+      "credentials": null,
+      "enabled": true
+    }
+  ],
+  "available_sources": [
+    {
+      "type": "notion",
+      "description": "Notes, documents, project databases",
+      "credentials": "env:NOTION_TOKEN",
+      "enabled": false,
+      "setup": "https://developers.notion.com/docs/authorization"
+    },
+    {
+      "type": "github",
+      "description": "Commits, pull requests, issues",
+      "credentials": "env:GITHUB_TOKEN",
+      "enabled": false,
+      "setup": "https://github.com/settings/tokens"
+    },
+    {
+      "type": "slack",
+      "description": "Team messages, threads, channels",
+      "credentials": "env:SLACK_TOKEN",
+      "enabled": false,
+      "setup": "https://api.slack.com/apps"
+    },
+    {
+      "type": "linear",
+      "description": "Tasks, projects, engineering cycles",
+      "credentials": "env:LINEAR_TOKEN",
+      "enabled": false,
+      "setup": "https://linear.app/settings/api"
+    },
+    {
+      "type": "spotify",
+      "description": "Listening patterns, focus playlists",
+      "credentials": "env:SPOTIFY_TOKEN",
+      "enabled": false,
+      "setup": "https://developer.spotify.com/dashboard"
+    }
+  ]
+}
